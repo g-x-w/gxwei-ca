@@ -10,19 +10,19 @@ body {
 
 #home {
 	color: #ffffff;
-	background: linear-gradient(rgba(226, 109, 255, 0.30), rgba(226, 109, 255, 0.30)), url("assets/images/site.jpg");
+	background: linear-gradient(rgba(110, 120, 255, 0.33), rgba(110, 120, 255, 0.33)), url("assets/images/site.jpg");
 	background-position: center center;
 	background-size: cover;
-	background-color: #f8acff50;
+	background-color: #7efff9e1;
 }
 
 @media (max-width:1230px) {
 	#home {
 		color: #ffffff;
-		background: linear-gradient(rgba(226, 109, 255, 0.30), rgba(226, 109, 255, 0.30)), url("assets/images/site.jpg");
+		background: linear-gradient(rgba(110, 120, 255, 0.33), rgba(110, 120, 255, 0.33)), url("assets/images/site.jpg");
 		background-position: center center;
 		background-size: cover;
-		background-color: #f8acff50;
+		background-color: #7efff9e1;
 		background-position-x: 25%;
 	}
 }
@@ -33,7 +33,7 @@ body {
 }
 
 #home a {
-	color: #ffdada;
+	color: #ffbce9a1; /* main subheading */
 }
 
 .navbar-text {
@@ -42,11 +42,11 @@ body {
 }
 
 .active {
-	color: #a3fcffa1 !important;
+	color: #fc61c8a1 !important;
 }
 
 .nav-link:hover {
-	color: #a3fcffa1 !important;
+	color: #fc61c8a1 !important;
 }
 
 .background-white {
@@ -55,12 +55,13 @@ body {
 }
 
 .background-offwhite{
-	background-color: #fde6fbe1;
+	background-color: #b3c4ffa1;
 	color: #000000;
 }
 
 .spacer {
-	min-height: 15px;
+	min-height: 0px;
+	background-color: #00000000;
 }
 
 .content-container {
@@ -76,15 +77,15 @@ body {
 
 .skills-stars {
 	float: right;
-	color: #a3fcffa1;
+	color: #ff85d6a1;
 }
 
 #contact a {
-	color: #a3fcffa1;
+	color: #ff85d6a1;
 }
 
 #contact i {
-	color: #a3fcffa1;
+	color: #ff85d6a1;
 	background-color: #ffffff;
 	line-height: 35px;
 	text-align: center;
@@ -102,7 +103,7 @@ body {
 
 #contact a:hover i {
 	color: #ffffff;
-	background-color: #a3fcffa1;
+	background-color: #ff85d6a1;
 }
 
 footer {
@@ -112,13 +113,20 @@ footer {
 }
 
 footer p {
-	margin-top: 10px;
+	margin-top: 15px;
 }
 
+.classWithPad {
+	padding-top: 10px;
+}
 
+.card-footer {
+	padding-bottom: 0px !important;
+}
 
-
-
-
+#projects-blurb {
+	padding: 0px !important;
+	margin: 0px !important;
+}
 
 
