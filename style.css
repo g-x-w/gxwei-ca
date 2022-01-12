@@ -42,11 +42,11 @@ body {
 }
 
 .active {
-	color: #f47bffa1 !important;
+	color: #a3fcffa1 !important;
 }
 
 .nav-link:hover {
-	color: #f47bffa1 !important;
+	color: #a3fcffa1 !important;
 }
 
 .background-white {
@@ -76,15 +76,15 @@ body {
 
 .skills-stars {
 	float: right;
-	color: #f47bffa1;
+	color: #a3fcffa1;
 }
 
 #contact a {
-	color: #f47bffa1;
+	color: #a3fcffa1;
 }
 
 #contact i {
-	color: #f47bffa1;
+	color: #a3fcffa1;
 	background-color: #ffffff;
 	line-height: 35px;
 	text-align: center;
@@ -102,7 +102,7 @@ body {
 
 #contact a:hover i {
 	color: #ffffff;
-	background-color: #f47bffa1;
+	background-color: #a3fcffa1;
 }
 
 footer {
