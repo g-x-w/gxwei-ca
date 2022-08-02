@@ -67,30 +67,12 @@
     <div class="background-white">
         <div class="spacer background-white"></div>
         <div class="container content-container" id="contact">
-            <h2 class="text-center">Contact</h2>
-            <p class="lead text-center" id="contact-blurb">Click below to get in touch!</p>
-            
-            <div class="text-center">
-                <a title="LinkedIn" href="https://www.linkedin.com/in/gary-wei/" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                    LinkedIn
+            <h2 class="text-center">
+                <a title="egg-leave" href="https://gxwei.ca/" target="_self">
+                Take me home!
                 </a>
-                <br>
-                <a title="GitHub" href="https://github.com/g-x-w" target="_blank">
-                    <i class="fab fa-github"></i>
-                    GitHub
-                </a>
-                <br>
-                <a title="Email" href="mailto:gary.wei@mail.utoronto.ca" target="_blank">
-                    <i class="fas fa-at"></i>
-                    Email
-                </a>
-                <br>
-                <a title="Resume" href="files/Resume.pdf" target="_blank">
-                    <i class="fas fa-file"></i>
-                    Resume
-                </a>
-            </div>
+            </h2>
+            <p class="lead text-center" id="contact-blurb">I've had enough egg thank you very much</p>
         </div>
     </div>
     
