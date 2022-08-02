@@ -29,7 +29,7 @@
     <div class="jumbotron-fluid text-center vh-100 d-flex align-items-center background-offwhite" id="egg-home">
         <div class="container">
             <h1 class="display-1">✨Ramen Egg Recipe✨</h1>
-            <h3>you stumbled on a lil' easter <i>egg!</i> 🥚</h3>
+            <h3>you stumbled on a lil' easter egg! 🥚</h3>
         </div>
     </div>
     
@@ -43,16 +43,13 @@
             <div class="row">
                 <div class="col-md-8">
                     <p>
-                        I'm glad you managed to find this page, whether intentionally or accidentally 😊 Curiosity is always worth chasing!
+                        I'm glad you managed to find this page, whether intentionally or accidentally 😊 Curiosity is always worth chasing! Anyway, if you want to know how 2 egg, you'll find my heavily iterated and tested recipe below ⬇
                     </p>
                     <p>
-                        Anyway, if you want to know how 2 egg, stick around and find out!
+                        <b>Ingredients you'll need:</b>
                     </p>
                     <p>
-                        Ingredients you'll need:
-                    </p>
-                    <p>
-                        Tools you'll need:
+                        <b>Tools you'll need:</b>
                     </p>
                 </div>
                 
