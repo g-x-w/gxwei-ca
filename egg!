@@ -28,8 +28,8 @@
     <!-- HOME -->
     <div class="jumbotron-fluid text-center vh-100 d-flex align-items-center background-offwhite" id="egg-home">
         <div class="container">
-            <h1 class="display-1">✨🥚 Ramen Egg Recipe 🥚✨</h1>
-            <h3>you stumbled on a lil' easter <i>egg!</i>  ඞ</h3>
+            <h1 class="display-1">✨Ramen Egg Recipe ✨</h1>
+            <h3>you stumbled on a lil' easter <i>egg!</i> 🥚</h3>
         </div>
     </div>
     
