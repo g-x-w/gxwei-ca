@@ -36,6 +36,10 @@ body {
 	color: #ffbce9a1; /* main subheading */
 }
 
+#egg a {
+	color: #000000a1; /* egg */
+}
+
 .navbar-text {
     padding-top: 2px;
     padding-bottom: 2px;
