@@ -28,7 +28,7 @@
     <!-- HOME -->
     <div class="jumbotron-fluid text-center vh-100 d-flex align-items-center background-offwhite" id="egg-home">
         <div class="container">
-            <a title="egg" href="https://gxwei.ca/egg!" target="_blank">
+            <a title="egg" href="https://gxwei.ca/egg!" target="_self">
                 <img class="img-fluid rounded mx-auto d-block" src="assets/images/egg2.png" alt="Me" width="20%">
             </a>
         </div>
