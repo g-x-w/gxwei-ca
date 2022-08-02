@@ -29,7 +29,7 @@
     <div class="jumbotron-fluid text-center vh-100 d-flex align-items-center background-offwhite" id="egg-home">
         <div class="container">
             <a title="egg" href="egg!" target="_blank">
-                <img class="img-fluid rounded mx-auto d-block" src="assets/images/egg1.png" alt="Me" width="20%">
+                <img class="img-fluid rounded mx-auto d-block" src="assets/images/egg2.png" alt="Me" width="20%">
             </a>
         </div>
     </div>
