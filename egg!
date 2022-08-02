@@ -88,8 +88,8 @@
                 </div>
                 
                 <div class="col-md-4">
-                    <a title="egg" href="https://gxwei.ca" target="_self"></a>
-                        <img class="img-fluid rounded mx-auto d-block" src="assets/images/egg1.png" alt="egg1" width="80%">
+                    <a title="egg1-leave" href="https://gxwei.ca/" target="_self"></a>
+                        <img class="img-fluid rounded mx-auto d-block" src="assets/images/egg1.png" alt="egg1-leave" width="80%">
                     </a>
                 </div>
             </div>
@@ -101,7 +101,7 @@
         <div class="spacer background-white"></div>
         <div class="container content-container" id="contact">
             <h2 class="text-center">
-                <a title="egg-leave" href="https://gxwei.ca/" target="_self">
+                <a title="leave" href="https://gxwei.ca/" target="_self">
                 Take me home!
                 </a>
             </h2>
