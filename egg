@@ -26,7 +26,7 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="80" class="vsc-initialized">
 
     <!-- HOME -->
-    <div class="jumbotron-fluid text-center vh-100 d-flex align-items-center" id="egg-home">
+    <div class="jumbotron-fluid text-center vh-100 d-flex align-items-center background-offwhite" id="egg-home">
         <div class="container">
             <h1 class="display-1">Top Secret Egg Recipe!!!</h1>
             <h3><a href="https://engsci.utoronto.ca/program/majors/machine-intelligence/" target="_blank">machine intelligence
