@@ -88,7 +88,9 @@
                 </div>
                 
                 <div class="col-md-4">
-                    <img class="img-fluid rounded mx-auto d-block" src="assets/images/egg1.png" alt="egg1" width="80%">
+                    <a title="egg" href="https://gxwei.ca/egg!" target="_self"></a>
+                        <img class="img-fluid rounded mx-auto d-block" src="assets/images/egg1.png" alt="egg1" width="80%">
+                    </a>
                 </div>
             </div>
         </div>
