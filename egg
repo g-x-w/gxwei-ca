@@ -24,43 +24,11 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="80" class="vsc-initialized">
-    <!-- NAVBAR -->
-
-    <nav class="navbar navbar-light bg-light fixed-top navbar-expand-sm py-0" id="navbar">
-        <a class="navbar-brand" href="https://gxwei.ca">Gary Wei</a>
-
-        <button class="navbar-toggler ml-auto custom-toggler" style="border-color: #cccccc00;" type="button" data-toggle="collapse" data-target="#navbarMenuContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarMenuContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link active" href="#home">Home</a>
-                </li>
-                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link" href="#skills">Skills</a>
-                </li>
-                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link" href="#experience">Experience</a>
-                </li>
-                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
 
     <!-- HOME -->
-    <div class="jumbotron-fluid text-center vh-100 d-flex align-items-center" id="home">
+    <div class="jumbotron-fluid text-center vh-100 d-flex align-items-center" id="egg-home">
         <div class="container">
-            <h1 class="display-1">Hey, I'm Gary</h1>
+            <h1 class="display-1">Top Secret Egg Recipe!!!</h1>
             <h3><a href="https://engsci.utoronto.ca/program/majors/machine-intelligence/" target="_blank">machine intelligence
             </a> engineering student @ <a href="https://www.utoronto.ca/" target="_blank">university of toronto</a></h3>
         </div>
