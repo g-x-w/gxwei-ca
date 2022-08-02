@@ -28,7 +28,7 @@
     <!-- HOME -->
     <div class="jumbotron-fluid text-center vh-100 d-flex align-items-center background-offwhite" id="egg-home">
         <div class="container">
-            <h1 class="display-1">Top Secret Egg Recipe!!!</h1>
+            <h1 class="display-1">Ramen Egg Recipe!!!</h1>
             <h3>congrats for stumbling on this lil' easter <i>egg</i> ඞ</h3>
         </div>
     </div>
@@ -37,39 +37,27 @@
     <div class="background-white">
         <div class="spacer background-white"></div>
         <div class="container content-container" id="about">
-            <h2 class="text-center">About Me</h2>
-            <p class="lead text-center" id="about-blurb">Don't worry, it's short</p>
+            <h2 class="text-center">AKA Ajitsuke Tamago or "Ajitama"</h2>
+            <p class="lead text-center" id="about-blurb">lit. "seasoned egg"</p>
 
             <div class="row">
                 <div class="col-md-8">
                     <p>
-                        Hey there! I'm Gary and I'm currently a 3rd year
-                        Engineering Science student at the University of Toronto in Toronto, Canada.
+                        I'm glad you managed to find this page, whether intentionally or accidentally :) Curiosity is always worth chasing!
                     </p>
                     <p>
-                        If you're here, that probably means you have my resume or you're a 
-                        friend of mine (or maybe both?? 👀). I've been programming for a little 
-                        over 6 years now and am proficient in OOP, primarily with Python and some C/C++.
-                        I've had some exposure to web development with CSS and HTML but this 
-                        website is definitely the biggest thing I've put together. My current focus
-                        is on machine learning, but I'm always open to new experiences and knowledge.
+                        Anyway, if you want to know how 2 egg, stick around and find out!
                     </p>
                     <p>
-                        I previously worked as a student researcher with labs in both the University 
-                        of Waterloo and University of Toronto, where I gained hands-on experience 
-                        implementing computational models/numerical simulations for CFD systems and 
-                        developed a python-based NLP platform for carrying out frequency and sentiment
-                        analyses on emergent terms to explore the phenomena of euphemism treadmilling.
+                        Ingredients you'll need:
                     </p>
                     <p>
-                        In my spare time I enjoy playing video games with friends, repeatedly 
-                        lifting heavy things and putting them down again, and perfecting my marinated
-                        ramen egg recipe.
+                        Tools you'll need:
                     </p>
                 </div>
                 
                 <div class="col-md-4">
-                    <img class="img-fluid rounded mx-auto d-block" src="assets/images/me.jpg" alt="Me" width="75%">
+                    <img class="img-fluid rounded mx-auto d-block" src="assets/images/egg1.jpg" alt="egg1" width="50%">
                 </div>
             </div>
         </div>
