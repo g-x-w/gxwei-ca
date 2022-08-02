@@ -29,7 +29,7 @@
     <div class="jumbotron-fluid text-center vh-100 d-flex align-items-center background-offwhite" id="egg-home">
         <div class="container">
             <h1 class="display-1">Top Secret Egg Recipe!!!</h1>
-            <h3><a href="https://engsci.utoronto.ca/program/majors/machine-intelligence/" target="_blank">machine intelligence
+            <h3><a href="https://engsci.utoronto.ca/program/majors/machine-intelligence/">machine intelligence
             </a> engineering student @ <a href="https://www.utoronto.ca/" target="_blank">university of toronto</a></h3>
         </div>
     </div>
