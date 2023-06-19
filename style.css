@@ -1,0 +1,130 @@
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 54px;
+}
+
+body {
+	background-color: #ffffff;
+	color: #ffffff;
+}
+
+#home {
+	color: #ffffff;
+	background: linear-gradient(rgba(110, 120, 255, 0.33), rgba(110, 120, 255, 0.33)), url("assets/images/site.jpg");
+	background-position: center center;
+	background-size: cover;
+	background-color: #7efff9e1;
+}
+
+@media (max-width:1230px) {
+	#home {
+		color: #ffffff;
+		background: linear-gradient(rgba(110, 120, 255, 0.33), rgba(110, 120, 255, 0.33)), url("assets/images/site.jpg");
+		background-position: center center;
+		background-size: cover;
+		background-color: #7efff9e1;
+		background-position-x: 25%;
+	}
+}
+
+.spacer {
+	height: 5px;
+	background-color: #000000;
+}
+
+#home a {
+	color: #ffbce9a1; /* main subheading */
+}
+
+.navbar-text {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.active {
+	color: #fc61c8a1 !important;
+}
+
+.nav-link:hover {
+	color: #fc61c8a1 !important;
+}
+
+.background-white {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.background-offwhite{
+	background-color: #b3c4ffa1;
+	color: #000000;
+}
+
+.spacer {
+	min-height: 0px;
+	background-color: #00000000;
+}
+
+.content-container {
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+
+#skills ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.skills-stars {
+	float: right;
+	color: #ff85d6a1;
+}
+
+#contact a {
+	color: #ff85d6a1;
+}
+
+#contact i {
+	color: #ff85d6a1;
+	background-color: #ffffff;
+	line-height: 35px;
+	text-align: center;
+	vertical-align: middle;
+	width: 35px;
+	height: 35px;
+	border-radius: 5px;
+	transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+}
+
+#contact a:hover {
+	text-decoration: none;
+}
+
+#contact a:hover i {
+	color: #ffffff;
+	background-color: #ff85d6a1;
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	color: #ffffff;
+}
+
+footer p {
+	margin-top: 15px;
+}
+
+.classWithPad {
+	padding-top: 10px;
+}
+
+.card-footer {
+	padding-bottom: 0px !important;
+}
+
+#projects-blurb {
+	padding: 0px !important;
+	margin: 0px !important;
+}

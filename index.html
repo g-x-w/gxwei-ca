@@ -1,0 +1,580 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="assets/images/icon.png">
+    <script type="text/javascript">
+        window.onload = function() {
+            $('.nav-link').click(function(){    
+                var divId = $(this).attr('href');
+                $('html, body').animate({
+                    scrollTop: $(divId).offset().top - 54
+                }, 1);
+            });
+            return false;
+          }
+    </script>
+    <title>Gary Wei</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="80" class="vsc-initialized">
+    
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-light bg-light fixed-top navbar-expand-sm py-0" id="navbar">
+        <a class="navbar-brand" href="#home">Gary Wei</a>
+
+        <button class="navbar-toggler ml-auto custom-toggler" style="border-color: #cccccc00;" type="button" data-toggle="collapse" data-target="#navbarMenuContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenuContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link active" href="#home">Home</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HOME -->
+    <div class="jumbotron-fluid text-center vh-100 d-flex align-items-center" id="home">
+        <div class="container">
+            <h1 class="display-1">Hey, I'm Gary</h1>
+            <h3><a href="https://engsci.utoronto.ca/program/majors/machine-intelligence/" target="_blank">machine intelligence
+            </a> engineering student @ <a href="https://www.utoronto.ca/" target="_blank">university of toronto</a></h3>
+        </div>
+    </div>
+    
+    <!-- ABOUT -->
+    <div class="background-white">
+        <div class="spacer background-white"></div>
+        <div class="container content-container" id="about">
+            <h2 class="text-center">About Me</h2>
+            <p class="lead text-center" id="about-blurb">Don't worry, it's short</p>
+
+            <div class="row">
+                <div class="col-md-8">
+                    <p>
+                        Hey there! I'm Gary and I'm currently a 3rd year
+                        Engineering Science student at the University of Toronto in Toronto, Canada.
+                    </p>
+                    <p>
+                        If you're here, that probably means you have my resume or you're a 
+                        friend of mine (or maybe both?? 👀). I've been programming for a little 
+                        over 6 years now and am proficient in OOP, primarily with Python and some C/C++.
+                        I've had some exposure to web development with CSS and HTML but this 
+                        website is definitely the biggest thing I've put together. My current focus
+                        is on machine learning, but I'm always open to new experiences and knowledge.
+                    </p>
+                    <p>
+                        I previously worked as a student researcher with labs in both the University 
+                        of Waterloo and University of Toronto, where I gained hands-on experience 
+                        implementing computational models/numerical simulations for CFD systems and 
+                        developed a python-based NLP platform for carrying out frequency and sentiment
+                        analyses on emergent terms to explore the phenomena of euphemism treadmilling.
+                    </p>
+                    <p id="egg_text">
+                        In my spare time I enjoy playing video games with friends, repeatedly 
+                        lifting heavy things and putting them down again, and perfecting my marinated
+                        ramen 
+                        <a title="egg" href="hmm" style="color: #000000">
+                            egg
+                        </a> 
+                        recipe.
+                    </p>
+                </div>
+                
+                <div class="col-md-4">
+                    <img class="img-fluid rounded mx-auto d-block" src="assets/images/me.jpg" alt="Me" width="75%">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- SKILLS -->
+    <div class="background-offwhite">
+        <div class="spacer background-offwhite"></div>
+        <div class="container content-container" id="skills">
+            <h2 class="text-center">Skills</h2>
+            <p class="lead text-center" id="skills-blurb">A concise list (excluding my exceptional dancing skills)</p>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Languages</h4>
+                    <ul>
+                        <li>Python
+                            <span class="skills-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </li>
+                        <li>C
+                            <span class="skills-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                        </li>
+                        <li>SQL
+                            <span class="skills-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                        </li>
+                        <li>C++
+                            <span class="skills-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                        </li>
+                        <li>HTML/CSS
+                            <span class="skills-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                        </li>
+                        <li>TypeScript*
+                            <span class="skills-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                        </li>
+                        <li>Rust*
+                            <span class="skills-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h4>Tools</h4>
+                    <ul>
+                        <li>Visual Studio Code
+                            <span class="skills-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </li>
+                        <li>Git
+                            <span class="skills-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                        </li>
+                        <li>PyCharm
+                            <span class="skills-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                        </li>
+                        <li>Docker
+                            <span class="skills-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                        </li>
+                        <li>Django*
+                            <span class="skills-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                        </li>
+                        <li>AWS*
+                            <span class="skills-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <small class="float-right">* currently learning!</small>
+        </div>
+    </div>
+    
+    <!-- EXPERIENCE -->
+    <div class="background-white">
+        <div class="spacer background-white"></div>
+        <div class="container content-container" id="experience">
+            <!-- <h1> </h1>
+            <h2> </h2> -->
+            <h2 class="text-center">Experience</h2>
+            <p class="lead text-center" id="experience-blurb">Wanna help me fill this part out? 😉</p>
+            
+            <br>
+            <h3>Professional</h3>
+            <div class="row">
+                <div class="col-4">
+                    <h5>Software Engineer</h5>
+                    <p>May 2022 - Present</p>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-7">
+                    <h6>Forma.ai</h6>
+                    <p>
+                        Currently working on the backend team as an intern software engineer, hoping to contribute to the efficiency and improvement of our platform!
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h5>Computational Linguistics Research</h5>
+                    <p>May 2020 - Aug 2020</p>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-7">
+                    <h6>University of Toronto — Cognitive Lexicon Laboratory</h6>
+                    <p>
+                        Developed an NLP data platform with Python to process text data 
+                        from over 1.6 million global English-language news articles related to 
+                        COVID-19 to analyse semantic and linguistic trends, exploring the euphemism
+                        treadmilling phenomenon
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h5>Computational Fluid Dynamics Research</h5>
+                    <p>May 2020 - Aug 2020</p>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-7">
+                    <h6>University of Waterloo — Multi-Physics Interaction Laboratory</h6>
+                    <p>
+                        Worked with PhD Candidate researcher and other research interns to build 
+                        computational fluid dynamic simulations and validate analytical solutions 
+                        to pressure and shockwave systems historically limited to numerical solutions.
+                    </p>
+                </div>
+            </div>
+            
+            <br>
+            <h3>Education</h3>
+            <div class="row">
+                <div class="col-4">
+                    <h5>University of Toronto</h5>
+                    <p>Sep 2019 - Apr 2023</p>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-7">
+                    <h6>Bachelor of Applied Science - Engineering Science, Machine Intelligence Specialization</h6>
+                    <p>
+                        Studying in the Department of Engineering Science at the University of 
+                        Toronto, pursuing a BASc specialized in Machine Intelligence with minors in Engineering Business and Economics.
+                    </p>
+                    <P>    
+                        Current and previous education includes software engineering,
+                        algorithms & data structures, digital & computer systems, probability & statistics, foundations of computing, signal analysis & communication, matrix algebra & optimization, introduction to machine learning, probabilistic reasoning, artificial intelligence.
+                    </p>
+                </div>
+            </div>
+
+            <br>
+            <h3>Co-Curricular</h3>
+            <div class="row">
+                <div class="col-4">
+                    <h5>Podcast Team Lead</h5>
+                    <p>Sep 2021 - Present</p>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-7">
+                    <h6>University of Toronto Ethical Principles in Artificial Intelligence</h6>
+                    <p>
+                        Leading a team of students in researching topics in artificial intelligence and producing podcasts aimed at providing more accessible  and approachable exposure to the field of AI and its ethical issues. You can listen to the podcast <a href="https://anchor.fm/epai2">here</a>!
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h5>First Year Director</h5>
+                    <p>Sep 2019 - Aug 2020</p>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-7">
+                    <h6>University of Toronto Engineering Society</h6>
+                    <p>
+                        Represented and advocated for the values and interests of the student 
+                        body on the University of Toronto Engineering Society board of directors, 
+                        representing over 1100 undergraduate engineering students.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h5>Experimental Avionics Engineer</h5>
+                    <p>Sep 2019 - May 2020</p>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-7">
+                    <h6>University of Toronto Aerospace Team</h6>
+                    <p>
+                        Led a project team of the Avionics subdivision in the University of Toronto 
+                        Aerospace Team in developing a multi-sensor integrated PCB experimental 
+                        system for the purposes of data collection during test flights of solid- 
+                        and hybrid-propellant rockets
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- PROJECTS -->
+    <div class="background-offwhite">
+        <div class="spacer background-offwhite"></div>
+        <div class="container content-container" id="projects">
+            <h2 class="text-center">Projects</h2>
+            <p class="lead text-center" id="projects-blurb">Some of the stuff I've worked on</p>
+
+                <br>
+                <div class="row">
+                    <div class="col-md">
+                        <div class="classWithPad">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5><a href="https://github.com/g-x-w/gxwei-ca">gxwei.ca</a></h5>
+                                    <span class="badge badge-dark">Bootstrap</span>
+                                    <span class="badge badge-dark">HTML</span>
+                                    <span class="badge badge-dark">CSS</span>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text"> 
+                                        Well this is meta. This website is definitely the biggest project
+                                        I've done in terms of web development languages; built with HTML and CSS 
+                                        on the Bootstrap framework. You're looking at the live version of the 
+                                        website, but you can also view the repo on GitHub.
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <p class="text-center">
+                                        <a class="btn btn-dark" role="button" title="GitHub" href="https://https://github.com/g-x-w/gxwei-ca" target="_blank">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col-md">
+                        <div class="classWithPad">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5><a href="https://github.com/g-x-w/semantic_change_ID">COVID-19 Semantic Analysis</a></h5>
+                                    <span class="badge badge-dark">Python</span>
+                                    <span class="badge badge-dark">nltk</span>
+                                    <span class="badge badge-dark">pandas</span>
+                                    <span class="badge badge-dark">NumPy</span>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text"> 
+                                        A Python program for detecting and analysing sources and trends
+                                        in semantic change using large datasets of >1 million English-language
+                                        news articles related to the novel coronavirus, and producing human-readable
+                                        plots and charts.
+                                        
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <p class="text-center">
+                                        <a class="btn btn-dark" role="button" title="GitHub" href="https://github.com/g-x-w/semantic_change_ID" target="_blank">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md">
+                        <div class="classWithPad">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5><a href="https://github.com/g-x-w/snek">Pathfinding Snake</a></h5>
+                                    <span class="badge badge-dark">Python</span>
+                                    <span class="badge badge-dark">pygame</span>
+                                    <span class="badge badge-dark">tkinter</span>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text"> 
+                                        A homebrewed version of the classic snake game with the option 
+                                        to turn on a simplistic AI based on the A* pathfinding algorithm. 
+                                        Unfortunately, our serpentine friend seldom wins the game.
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <p class="text-center">
+                                        <a class="btn btn-dark" role="button" title="GitHub" href="https://github.com/g-x-w/snek" target="_blank">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- </div> -->
+                <br>
+                <!-- <div class="row"> -->
+                    <div class="col-md">
+                        <div class="classWithPad">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5><a href="https://github.com/g-x-w/k-means-breast-cancer">K-means Clustering on Breast Cancer Aspirate</a></h5>
+                                    <span class="badge badge-dark">Python</span>
+                                    <span class="badge badge-dark">NumPy</span>
+                                    <span class="badge badge-dark">scikit-learn</span>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text"> 
+                                        Implementing the K-means algorithm from scratch with an OOP approach 
+                                        to cluster an sklearn dataset of fine needle aspirates from the cancer 
+                                        cells of breast cancer patients.
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <p class="text-center">
+                                        <a class="btn btn-dark" role="button" title="GitHub" href="https://github.com/g-x-w/k-means-breast-cancer" target="_blank">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md">
+                        <div class="classWithPad">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5><a href="https://github.com/g-x-w/tweet_emoclass">Convolutional-BiLSTM Tweet Classifying ML Model</a></h5>
+                                    <span class="badge badge-dark">Python</span>
+                                    <span class="badge badge-dark">PyTorch</span>
+                                    <span class="badge badge-dark">Keras</span>
+                                    <span class="badge badge-dark">NumPy</span>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text"> 
+                                        A machine learning model built to identify and classify the primary emotion expressed by tweets, designed with a CNN-BiLSTM based architecture using PyTorch and Keras. Trained on a dataset of over 200000 tweets collected and preprocessed with Twitter's API, achieving accuracies of ~70%!
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <p class="text-center">
+                                        <a class="btn btn-dark" role="button" title="GitHub" href="https://github.com/g-x-w/tweet_emoclass" target="_blank">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                    
+            </div>
+    </div>
+    
+    <!-- CONTACT -->
+    <div class="background-white">
+        <div class="spacer background-white"></div>
+        <div class="container content-container" id="contact">
+            <h2 class="text-center">Contact</h2>
+            <p class="lead text-center" id="contact-blurb">Click below to get in touch!</p>
+            
+            <div class="text-center">
+                <a title="LinkedIn" href="https://www.linkedin.com/in/gary-wei/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    LinkedIn
+                </a>
+                <br>
+                <a title="GitHub" href="https://github.com/g-x-w" target="_blank">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                </a>
+                <br>
+                <a title="Email" href="mailto:gary.wei@mail.utoronto.ca" target="_blank">
+                    <i class="fas fa-at"></i>
+                    Email
+                </a>
+                <br>
+                <a title="Resume" href="files/Resume.pdf" target="_blank">
+                    <i class="fas fa-file"></i>
+                    Resume
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- FOOTER -->
+    <footer class="bg-dark">
+        <div class="text-center footer-text">
+            <p>Made with 🍵 in Toronto<br>Copyright 2022 © Gary Wei</p>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>

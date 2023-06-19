@@ -1,0 +1,124 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="assets/images/icon.png">
+    <script type="text/javascript">
+        window.onload = function() {
+            $('.nav-link').click(function(){    
+                var divId = $(this).attr('href');
+                $('html, body').animate({
+                    scrollTop: $(divId).offset().top - 54
+                }, 1);
+            });
+            return false;
+          }
+    </script>
+    <title>Gary Wei</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="80" class="vsc-initialized">
+
+    <!-- HOME -->
+    <div class="jumbotron-fluid text-center vh-100 d-flex align-items-center background-offwhite" id="egg-home">
+        <div class="container">
+            <h1 class="display-1">Ramen Egg Recipe</h1>
+            <h3>✨ you stumbled on a lil' easter egg! 🥚 ✨</h3>
+        </div>
+    </div>
+    
+    <!-- ABOUT -->
+    <div class="background-white">
+        <div class="spacer background-white"></div>
+        <div class="container content-container" id="about">
+            <h2 class="text-center">AKA Ajitsuke Tamago or "Ajitama"</h2>
+            <p class="lead text-center" id="about-blurb">lit. "seasoned egg"</p>
+
+            <div class="row">
+                <div class="col-md-8">
+                    <p>
+                        I'm glad you managed to find this page, whether intentionally or accidentally 😊 Curiosity is always worth chasing! Anyway, if you want to know how 2 egg, you'll find my heavily iterated and tested recipe below ⬇ It makes 15 eggs, since I eat like 3 a day but scale as you see fit of course.
+                    </p>
+                    <p>
+                        <b>Ingredients you'll use:</b>
+                        <ul>
+                            <li>15 large eggs</li>
+                            <li>6g salt</li>
+                            <li>6g sugar</li>
+                            <li>50g mirin</li>
+                            <li>100g soy sauce</li>
+                            <li>400g filtered water</li>
+                            <li>Like a dozen ice cubes</li>
+                          </ul>
+                    </p>
+                    <p>
+                        <b>Tools you'll need:</b>
+                        <ul>
+                            <li>Kitchen scale with accuracy +- 1g</li>
+                            <li>Thumbtack or similar thickness sewing needle</li>
+                            <li>The biggest pot you own</li>
+                            <li>A large bowl to fill with icewater</li>
+                            <li>A reasonably sized, hermetically sealable container in which to marinate the eggs (I use a big 1L kimchi jar with a screw cap)</li>
+                          </ul>
+                    </p>
+                    <p>
+                        <b>Instructions:</b>
+                        As a preface, when measuring out the ingredients, try to be as precise as possible; after you've made it the first time, feel free to adjust the sweet/salty/savory ratios to your liking.
+                        <ol>
+                            <li>Fill your pot with water and bring it to a boil. Try to fill it as much as possible while still leaving space for the eggs.</li>
+                            <li>While the water's boiling take the eggs out of the fridge and poke holes in the fatter end with the thumbtack. This can take some practise but it helps ensure that no eggs crack in the boiling process and also makes them a bit easier to peel afterward.</li>
+                            <li>Once the water has reached a rolling boil, gently drop your eggs in. Using a metal colander/strainer to lower all your eggs in at once is very convenient here, but not entirely necessary. Make sure the water is fully boiling; putting eggs in early can result in much harder to peel eggs.</li>
+                            <li>IMPORTANT!! Dropping in the eggs will lower the temperature of the water; once the water returns to a full rolling boil, start a timer for 7 minutes.</li>
+                            <li>While the eggs are boiling, fill up your bowl with cold tap water and drop in the ice cubes.</li> 
+                            <li>After the 7 minutes are up drain the eggs and put them in the ice bath immediately. This helps halt the cooking process for perfectly gooey soft-boiled eggs (and also helps with easier peeling).</li>
+                            <li>Leave the eggs in the ice bath for at least 15 minutes, or until the ice has all melted. While they cool, take the time to prep the marinade.</li>
+                            <li>Into your marinating container mix the mirin, soy sauce, water, sugar, and salt and stir until it's all combined and dissolved.</li>
+                            <li>Once the eggs are cooled, peel away! My technique for this is to crack the fat end of the egg (where we poked the holes) by tapping it a few times and then rolling egg gently against the counter with my palm until I can peel it easily. This is definitely the hardest part though, so take your time and find out what works for you!</li>
+                            <li>Plop those eggs in the marinade and pop it in the fridge overnight and they'll be ready to eat by the morning! More specifically, marinate for at least 12 hours. There's not necessarily a maximum marinate time either; I usually leave the eggs in the container and pull them out as I eat them. If you prefer, you can remove them from the marinade whenever you feel they're adequately flavored, but always make sure to use clean fresh utensils whenever you're retrieving eggs from the marinade so as to minimize stray contaminants.
+                            </li>
+                        </ol>
+                    </p>
+                    And voila! A bunch of delicious, perfectly soft-boiled and flavored ajitama. I usually eat them over rice or noodles with some other dishes as a yummy convenient meal but honestly you could probably just snack on them alone, whatever floats your boat 🥚
+                </div>
+                
+                <div class="col-md-4">
+                    <a title="egg1-leave" href="https://gxwei.ca/" target="_self"></a>
+                        <img class="img-fluid rounded mx-auto d-block" src="assets/images/egg1.png" alt="egg1" width="80%">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- CONTACT -->
+    <div class="background-white">
+        <div class="spacer background-white"></div>
+        <div class="container content-container" id="contact">
+            <h2 class="text-center">
+                <a title="leave" href="https://gxwei.ca/" target="_self">
+                Take me home!
+                </a>
+            </h2>
+            <p class="lead text-center" id="contact-blurb">✨ Thanks for visiting ✨</p>
+        </div>
+    </div>
+    
+    <!-- FOOTER -->
+    <footer class="bg-dark">
+        <div class="text-center footer-text">
+            <p>Made with 🍵 in Toronto<br>Copyright 2022 © Gary Wei</p>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
