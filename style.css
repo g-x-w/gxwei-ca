@@ -33,7 +33,7 @@ body {
 }
 
 #home a {
-	color: #ffbce9a1; /* main subheading */
+	color: rgba(30, 255, 60, 0.84); /* main subheading */
 }
 
 .navbar-text {
